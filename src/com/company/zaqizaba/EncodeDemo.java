@@ -1,4 +1,4 @@
-package com.company;
+package com.company.zaqizaba;
 
 public class EncodeDemo {
     public static void main(String[] args) throws Exception{

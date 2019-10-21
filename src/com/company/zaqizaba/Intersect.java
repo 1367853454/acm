@@ -1,4 +1,4 @@
-package com.company;
+package com.company.zaqizaba;
 
 import java.util.ArrayList;
 import java.util.Arrays;
