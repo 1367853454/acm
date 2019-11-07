@@ -1,7 +1,7 @@
-package com.company.zaqizaba;
+package com.company.Java;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
-import java.util.Iterator;
 
 /**
  * 将类声明为final,这样它就不能被继承
@@ -70,6 +70,10 @@ public final class FinalString {
 
     public static void main(String[] args) {
 
+        String s1 = "java" + "hello";
+        String s2 = "javahello";
+        System.out.println(s1 == s2);
+
         HashMap h1 = new HashMap();
         h1.put("1","first");
         h1.put("2","second");
@@ -98,6 +102,7 @@ public final class FinalString {
         HashMap hashMapTest = ce.getMap();
         hashMapTest.put("4","new");
         System.out.println(ce.getMap());
+        System.out.println(LocalDateTime.now());
 
     }
 
