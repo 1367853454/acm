@@ -13,19 +13,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Java/TestLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/IO/PathDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Java/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="377">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,6 +31,7 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/TestThreadLocal.java" />
         <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/InheritableThreadLocal.java" />
         <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/TestUnsafe.java" />
@@ -98,13 +92,13 @@
         <option value="$PROJECT_DIR$/src/com/company/Java/TestGeneric.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java/Node.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java/TestLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/IO/PathDemo1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1102" />
-    <option name="y" value="8" />
-    <option name="width" value="1715" />
+    <option name="x" value="982" />
+    <option name="width" value="1012" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectId" id="1R5cFJE3TNDIOhxqRiHqpjwoq7u" />
@@ -114,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -138,20 +133,19 @@
               <item name="acm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="bingfabiancheng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573202984191" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574236577491" />
     <property name="last_opened_file_path" value="D:/lombok/lombok-plugin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -163,6 +157,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.Java8" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_WorkSpace\acm\src\com\company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,13 +174,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLinkedList">
-    <configuration name="TestCanlendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Java.TestCanlendar" />
+  <component name="RunManager" selected="Application.PathDemo1">
+    <configuration name="PathDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.IO.PathDemo1" />
       <module name="ACM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Java.*" />
+          <option name="PATTERN" value="com.company.IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,19 +241,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCanlendar" />
       <item itemvalue="Application.TestEnum" />
       <item itemvalue="Application.TestException" />
       <item itemvalue="Application.TestGeneric" />
       <item itemvalue="Application.TestLinkedList" />
+      <item itemvalue="Application.PathDemo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathDemo1" />
         <item itemvalue="Application.TestLinkedList" />
         <item itemvalue="Application.TestGeneric" />
         <item itemvalue="Application.TestException" />
         <item itemvalue="Application.TestEnum" />
-        <item itemvalue="Application.TestCanlendar" />
       </list>
     </recent_temporary>
   </component>
@@ -310,15 +307,20 @@
       <workItem from="1573029699157" duration="650000" />
       <workItem from="1573105507931" duration="1632000" />
       <workItem from="1573107324108" duration="6960000" />
-      <workItem from="1573175180413" duration="13604000" />
+      <workItem from="1573175180413" duration="15016000" />
+      <workItem from="1573434280859" duration="4893000" />
+      <workItem from="1573467314304" duration="296000" />
+      <workItem from="1573522908787" duration="1194000" />
+      <workItem from="1574219419370" duration="2833000" />
+      <workItem from="1574233117076" duration="2705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148182000" />
+    <option name="totallyTimeSpent" value="161515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1102" y="8" width="1715" height="1053" extended-state="0" />
+    <frame x="982" y="0" width="1012" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -326,7 +328,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.21752267" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.2920168" />
       <window_info id="Learn" order="6" weight="0.32910448" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290993" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.14859003" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22668113" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32861805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -473,20 +475,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/List/Dto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AnnTest/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AnnTest/Description.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -914,17 +902,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Java/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Java/TestLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="800">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Java/TestLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Java/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="80">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MyDownloads/JDK/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="1032" column="19" selection-start-line="1032" selection-start-column="19" selection-end-line="1032" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/IO/PathDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
