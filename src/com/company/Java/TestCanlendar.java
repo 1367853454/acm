@@ -1,8 +1,6 @@
 package com.company.Java;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 public class TestCanlendar {
 
@@ -35,6 +33,11 @@ public class TestCanlendar {
         Calendar c4 = new GregorianCalendar();
         c4.setTime(new Date());
         System.out.println(c4);
+
+        String producesList = "21,21,";
+
+        List<String> producesIdList = Arrays.asList(producesList.split(","));
+        System.out.println(producesIdList);
 
     }
 }
