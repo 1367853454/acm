@@ -43,13 +43,18 @@ public class TestStreamApi1 {
 //
 //        String s = new String("哈哈");
 
-        List<List<String>> listList = new ArrayList<>();
-        List<String> list = new ArrayList<>();
-        listList.add(list);
+//        List<List<String>> listList = new ArrayList<>();
+//        List<String> list = new ArrayList<>();
+//        listList.add(list);
+//
+//        String name = "haha";
+//        list.add(name);
+//        System.out.println(listList);
 
-        String name = "haha";
-        list.add(name);
-        System.out.println(listList);
-
+        String [] arr = "1,2,3".split(",");
+        for (String s : arr) {
+            System.out.print(s + " ");
+        }
+        System.out.println(arr.length);
     }
 }
