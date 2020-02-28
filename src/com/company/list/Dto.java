@@ -1,4 +1,4 @@
-package com.company.List;
+package com.company.list;
 
 public class Dto {
 

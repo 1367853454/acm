@@ -1,16 +1,10 @@
-package com.company.Java8;
-
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+package com.company.java8;
 
 public class TestStreamApi1 {
 
 //    public static void main(String[] args) {
 //
-//        List<Employee> employeeList = Arrays.asList(
+//        list<Employee> employeeList = Arrays.asList(
 //                new Employee("张三",18,9999.99, Employee.Status.BUSY),
 //                new Employee("李四",18,9999.99, Employee.Status.FREE),
 //                new Employee("王五",8,4000.22, Employee.Status.vocation),
@@ -43,8 +37,8 @@ public class TestStreamApi1 {
 //
 //        String s = new String("哈哈");
 
-//        List<List<String>> listList = new ArrayList<>();
-//        List<String> list = new ArrayList<>();
+//        list<list<String>> listList = new ArrayList<>();
+//        list<String> list = new ArrayList<>();
 //        listList.add(list);
 //
 //        String name = "haha";

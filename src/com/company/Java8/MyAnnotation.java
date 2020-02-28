@@ -1,7 +1,6 @@
-package com.company.Java8;
+package com.company.java8;
 
 import java.lang.annotation.*;
-import java.lang.reflect.Type;
 
 @Repeatable(MyAnnotations.class)
 @Target({ElementType.TYPE, ElementType.FIELD,ElementType.METHOD,ElementType.PARAMETER,ElementType.CONSTRUCTOR,ElementType.LOCAL_VARIABLE})

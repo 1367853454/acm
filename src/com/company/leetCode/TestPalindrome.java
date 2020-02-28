@@ -1,4 +1,4 @@
-package com.company.LeetCode;
+package com.company.leetCode;
 
 /**
  * 反转一半数字

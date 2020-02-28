@@ -1,4 +1,4 @@
-package com.company.AnnTest;
+package com.company.annTest;
 
 import java.lang.annotation.*;
 //作用域

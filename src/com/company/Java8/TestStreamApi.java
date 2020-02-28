@@ -1,4 +1,4 @@
-package com.company.Java8;
+package com.company.java8;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -142,7 +142,7 @@ public class TestStreamApi {
                 .map(Employee::getName)
                 .collect(Collectors.toList());
         list2.forEach(System.out::println);
-        System.out.println("List name------------");
+        System.out.println("list name------------");
 
         Set<String> set = employeeList.stream()
                 .map(Employee::getName)
