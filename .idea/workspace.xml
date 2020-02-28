@@ -3,39 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea2d3eb0-f106-4292-a675-0ec7be37c884" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AnnTest/Child.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AnnTest/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestCanlendar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestDateFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestGeneric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java/TestStringBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/DateFormatThreadLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/ForkJoinCalculate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/Godness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/Man.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/MyAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/MyAnnotations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/MyFun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/MyInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/NewMan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/SubClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestDefaultInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestForkJoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestLambda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestLambda1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestLocalDateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestOptional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestSimpleDateFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestStreamApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/TestStreamApi1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/Testlambda2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Java8/Testlambda3.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +126,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582859480082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582859557119" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -355,7 +322,7 @@
       <workItem from="1578380766246" duration="234000" />
       <workItem from="1578539139134" duration="1363000" />
       <workItem from="1578541671237" duration="15000" />
-      <workItem from="1582858803206" duration="534000" />
+      <workItem from="1582858803206" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八">
       <created>1577063631965</created>
@@ -378,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582859263945</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rename">
+      <created>1582859399089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582859399089</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rename">
+      <created>1582859507722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582859507722</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185500000" />
+    <option name="totallyTimeSpent" value="185830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
