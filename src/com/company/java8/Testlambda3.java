@@ -1,6 +1,5 @@
-package com.company.Java8;
+package com.company.java8;
 
-import java.io.PrintStream;
 import java.util.Comparator;
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package com.company.Java8;
+package com.company.java8;
 
 public class Employee {
 

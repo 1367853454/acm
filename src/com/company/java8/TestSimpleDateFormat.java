@@ -1,11 +1,9 @@
-package com.company.Java8;
+package com.company.java8;
 
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.concurrent.*;
 
@@ -24,7 +22,7 @@ public class TestSimpleDateFormat {
 
         ExecutorService pool = Executors.newFixedThreadPool(10);
 
-        List<Future<Date>> results = new ArrayList<>();
+        list<Future<Date>> results = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
             results.add(pool.submit(task));

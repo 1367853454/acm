@@ -1,4 +1,4 @@
-package com.company.AnnTest;
+package com.company.annTest;
 
 public class Test {
 

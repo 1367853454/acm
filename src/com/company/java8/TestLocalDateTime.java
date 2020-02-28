@@ -1,9 +1,8 @@
-package com.company.Java8;
+package com.company.java8;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
-import java.util.Set;
 
 public class TestLocalDateTime {
 

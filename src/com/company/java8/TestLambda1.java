@@ -1,8 +1,6 @@
-package com.company.Java8;
+package com.company.java8;
 
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 import java.util.function.Consumer;
 /*
 * 左侧 lambda表达式的参数列表

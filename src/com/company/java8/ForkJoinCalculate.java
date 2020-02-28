@@ -1,4 +1,4 @@
-package com.company.Java8;
+package com.company.java8;
 
 import java.util.concurrent.RecursiveTask;
 
