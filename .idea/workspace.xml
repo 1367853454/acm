@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2d3eb0-f106-4292-a675-0ec7be37c884" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zaqizaba/OOMDemoMemLeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zaqizaba/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zaqizaba/StudentListLearnStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ACM/zaqizaba/Zaqizaba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ACM/zaqizaba/Zaqizaba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,34 +16,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="52" column="56" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="56" />
+            <state relative-caret-position="648">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
+        <entry file="file://$PROJECT_DIR$/src/zaqizaba/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="1011" column="30" selection-start-line="1011" selection-start-column="14" selection-end-line="1011" selection-end-column="30" />
+            <state relative-caret-position="273">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zaqizaba/StudentListLearnStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zaqizaba/OOMDemoMemLeak.java">
+        <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="168" column="51" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39177">
+              <caret line="1533" column="40" selection-start-line="1533" selection-start-column="40" selection-end-line="1533" selection-end-column="40" />
+              <folding>
+                <element signature="e#65240#65241#0" expanded="true" />
+                <element signature="e#65287#65288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54648">
+              <caret line="2256" column="48" selection-start-line="2256" selection-start-column="4" selection-end-line="2256" selection-end-column="48" />
+              <folding>
+                <element signature="e#5767#5768#0" expanded="true" />
+                <element signature="e#5800#5801#0" expanded="true" />
+                <element signature="e#6596#6597#0" expanded="true" />
+                <element signature="e#6640#6641#0" expanded="true" />
+                <element signature="e#76967#76968#0" expanded="true" />
+                <element signature="e#77018#77019#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,15 +110,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>reverseOrder</find>
+      <find>fixAfterInsertion</find>
+      <find>put</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/List/Test1.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java8/TestLambda.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java8/Testlambda2.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java8/Testlambda3.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java8/Testlambda4.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java8/Employee.java" />
@@ -115,6 +171,9 @@
         <option value="$PROJECT_DIR$/src/com/company/list/Dto.java" />
         <option value="$PROJECT_DIR$/src/zaqizaba/OOMDemoMemLeak.java" />
         <option value="$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java" />
+        <option value="$PROJECT_DIR$/src/zaqizaba/StudentListTest.java" />
+        <option value="$PROJECT_DIR$/src/zaqizaba/Student.java" />
+        <option value="$PROJECT_DIR$/src/zaqizaba/StudentListLearnStream.java" />
       </list>
     </option>
   </component>
@@ -158,13 +217,7 @@
               <item name="acm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acm" type="b2602c69:ProjectViewProjectNode" />
@@ -182,7 +235,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583462906957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583981883276" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -214,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zaqizaba">
+  <component name="RunManager">
     <configuration name="ConsumeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mq.ConsumeClient" />
       <module name="ACM" />
@@ -228,7 +281,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOMDemoMemLeak (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OOMDemoMemLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zaqizaba.OOMDemoMemLeak" />
       <module name="ACM" />
       <extension name="coverage">
@@ -254,6 +307,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentListLearnStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zaqizaba.StudentListLearnStream" />
+      <module name="ACM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zaqizaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Zaqizaba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zaqizaba.Zaqizaba" />
       <module name="ACM" />
@@ -272,9 +338,11 @@
       <item itemvalue="Application.ConsumeClient" />
       <item itemvalue="Application.Zaqizaba" />
       <item itemvalue="Application.OOMDemoMemLeak (1)" />
+      <item itemvalue="Application.StudentListLearnStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentListLearnStream" />
         <item itemvalue="Application.Zaqizaba" />
         <item itemvalue="Application.OOMDemoMemLeak (1)" />
         <item itemvalue="Application.ConsumeClient" />
@@ -373,7 +441,15 @@
       <workItem from="1583300641179" duration="1801000" />
       <workItem from="1583307760403" duration="807000" />
       <workItem from="1583308864186" duration="2041000" />
-      <workItem from="1583459749824" duration="3353000" />
+      <workItem from="1583459749824" duration="4102000" />
+      <workItem from="1583479697468" duration="3442000" />
+      <workItem from="1583715736241" duration="4431000" />
+      <workItem from="1583802642450" duration="1462000" />
+      <workItem from="1583820381018" duration="5000" />
+      <workItem from="1583820409954" duration="3055000" />
+      <workItem from="1583895253533" duration="48000" />
+      <workItem from="1583977486107" duration="68000" />
+      <workItem from="1583977769967" duration="4050000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八">
       <created>1577063631965</created>
@@ -431,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582879607180</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="map">
+      <created>1583463305556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583463305556</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205967000" />
+    <option name="totallyTimeSpent" value="223277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,13 +538,13 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.20255864" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.21321961" />
       <window_info id="Learn" order="6" weight="0.32910448" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40130153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38069415" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38286334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38069415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
@@ -563,7 +646,8 @@
     <MESSAGE value="杂七杂八" />
     <MESSAGE value="rename" />
     <MESSAGE value="mq" />
-    <option name="LAST_COMMIT_MESSAGE" value="mq" />
+    <MESSAGE value="map" />
+    <option name="LAST_COMMIT_MESSAGE" value="map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,6 +663,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="str[3]" />
+        <watch expression="oldMap" />
       </configuration>
     </watches-manager>
   </component>
@@ -616,74 +701,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/leetCode/TestRomanToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java/TestCanlendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java/FinalString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1051">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java/TestDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java/TestDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java/TestGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/io/PathDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/Daemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -874,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java8/TestStreamApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="829">
@@ -1022,19 +1032,113 @@
     </entry>
     <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1011" column="30" selection-start-line="1011" selection-start-column="14" selection-end-line="1011" selection-end-column="30" />
+        <state relative-caret-position="46">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="184" column="39" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="39" />
+          <folding>
+            <element signature="e#14106#14107#0" expanded="true" />
+            <element signature="e#14155#14156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/generics/tree/Tree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="52" column="56" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="56" />
+        <state relative-caret-position="648">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39177">
+          <caret line="1533" column="40" selection-start-line="1533" selection-start-column="40" selection-end-line="1533" selection-end-column="40" />
+          <folding>
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54648">
+          <caret line="2256" column="48" selection-start-line="2256" selection-start-column="4" selection-end-line="2256" selection-end-column="48" />
+          <folding>
+            <element signature="e#5767#5768#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+            <element signature="e#6596#6597#0" expanded="true" />
+            <element signature="e#6640#6641#0" expanded="true" />
+            <element signature="e#76967#76968#0" expanded="true" />
+            <element signature="e#77018#77019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/java8/TestStreamApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1151">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zaqizaba/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="168" column="51" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="804" column="11" selection-start-line="804" selection-start-column="11" selection-end-line="804" selection-end-column="11" />
+          <folding>
+            <element signature="e#34114#34115#0" expanded="true" />
+            <element signature="e#34170#34171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zaqizaba/StudentListLearnStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

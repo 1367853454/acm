@@ -1,10 +1,10 @@
 package zaqizaba;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import sun.reflect.generics.tree.Tree;
+
+import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Zaqizaba {
@@ -16,6 +16,11 @@ public class Zaqizaba {
     LinkedBlockingQueue<String> linkedBlockingQueue = new LinkedBlockingQueue<>();
 
     List<String> list = new ArrayList<>();
+
+    Map<String,String> treeMap = new TreeMap<>();
+    /*private void fixAfterInsertion(Entry<K,V> x)*/
+
+    Map<String,String> concurrentHashMap = new ConcurrentHashMap();
 
     public static void main(String[] args) {
 
@@ -59,6 +64,13 @@ public class Zaqizaba {
         stringStringMap.computeIfPresent("k",(k,v) -> null);
         stringStringMap.computeIfAbsent("k", num -> "val");
         System.out.println(stringStringMap);
+
+        System.out.println("---");
+        Map<Integer, String> treeMap = new TreeMap<>();
+        treeMap.put(3,"3");
+        treeMap.put(1,"1");
+        treeMap.put(2,"2");
+        System.out.println(treeMap + ",");
     }
 
     public static void hh() {
