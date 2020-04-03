@@ -1,7 +1,8 @@
-package com.company.java;
+package string;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
+import java.util.Iterator;
 
 /**
  * 将类声明为final,这样它就不能被继承
@@ -41,38 +42,39 @@ public final class FinalString {
      * @param name
      * @param hashMap
      */
-//    public FinalString(int id, String name, HashMap hashMap){
-//        this.id  = id;
-//        this.name = name;
-//
-//        HashMap tempMap = new HashMap();
-//        String key;
-//        Iterator iterator = hashMap.keySet().iterator();
-//        while (iterator.hasNext()){
-//            key = (String) iterator.next();
-//            tempMap.put(key,hashMap.get(key));
-//        }
-//
-//        this.map = tempMap;
-//    }
-
-    /**
-     * 实现浅拷贝的构造器
-     * @param id
-     * @param name
-     * @param hashMap
-     */
     public FinalString(int id, String name, HashMap hashMap){
-        this.id = id;
+        this.id  = id;
         this.name = name;
-        this.map = hashMap;
+
+        HashMap tempMap = new HashMap();
+        String key;
+        Iterator iterator = hashMap.keySet().iterator();
+        while (iterator.hasNext()){
+            key = (String) iterator.next();
+            tempMap.put(key,hashMap.get(key));
+        }
+
+        this.map = tempMap;
     }
+
+//    /**
+//     * 实现浅拷贝的构造器
+//     * @param id
+//     * @param name
+//     * @param hashMap
+//     */
+//    public FinalString(int id, String name, HashMap hashMap){
+//        this.id = id;
+//        this.name = name;
+//        this.map = hashMap;
+//    }
 
     public static void main(String[] args) {
 
-        String s1 = "java" + "hello";
-        String s2 = "javahello";
-        System.out.println(s1 == s2);
+//        String s1 = "java" + "hello";
+//        String s2 = "javahello";
+//        System.out.println(s1 == s2);
+//        System.out.println("---------------------");
 
         HashMap h1 = new HashMap();
         h1.put("1","first");
@@ -85,7 +87,8 @@ public final class FinalString {
 
         System.out.println(name == ce.getName());
         System.out.println(id == ce.getId());
-        System.out.println(h1 == ce.getMap());
+        System.out.println(h1.equals(ce.getMap()));
+        System.out.println("---------------------");
 
         System.out.println("ce id :" + ce.getId());
         System.out.println("ce name :" + ce.getName());
@@ -101,9 +104,9 @@ public final class FinalString {
 
         HashMap hashMapTest = ce.getMap();
         hashMapTest.put("4","new");
-        System.out.println(ce.getMap());
-        System.out.println(LocalDateTime.now());
-
+        System.out.println("ce " + ce.getMap());
+        System.out.println("hashMapTest " + hashMapTest);
+        System.out.println("h1 " +  h1);
     }
 
 
