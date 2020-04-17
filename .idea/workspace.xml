@@ -4,10 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2d3eb0-f106-4292-a675-0ec7be37c884" name="Default Changelist" comment="">
+    <list default="true" id="ea2d3eb0-f106-4292-a675-0ec7be37c884" name="Default Changelist" comment="excel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/java/FinalString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/FinalString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/excel/ExcelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excel/ExcelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest$CallerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest$CallerTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest$RunableTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest$RunableTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ACM/com/company/bingfabiancheng/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bingfabiancheng/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/bingfabiancheng/Synchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bingfabiancheng/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/bingfabiancheng/ThreadTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,27 +22,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/excel/ExcelService.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/WaitNotifyInterupt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="52" selection-end-line="141" />
+            <state relative-caret-position="81">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/string/FinalString.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/Synchronized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1382">
-              <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-              <folding>
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="32">
+              <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -60,6 +56,10 @@
       <find>reverseOrder</find>
       <find>fixAfterInsertion</find>
       <find>put</find>
+      <find>ThreadTest</find>
+      <find>get re</find>
+      <find>wait(long timeout,</find>
+      <find>WaitN</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Java8/TestStreamApi.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java8/ForkJoinCalculate.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java8/TestForkJoin.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java8/Godness.java" />
         <option value="$PROJECT_DIR$/src/com/company/Java8/Man.java" />
@@ -119,6 +117,8 @@
         <option value="$PROJECT_DIR$/src/com/company/list/Test1.java" />
         <option value="$PROJECT_DIR$/src/excel/ExcelService.java" />
         <option value="$PROJECT_DIR$/src/string/FinalString.java" />
+        <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/Synchronized.java" />
       </list>
     </option>
   </component>
@@ -143,6 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,27 +168,26 @@
               <item name="acm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bingfabiancheng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acm" type="b2602c69:ProjectViewProjectNode" />
               <item name="acm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585884626681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587115813057" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -219,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Synchronized">
     <configuration name="FinalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.FinalString" />
       <module name="ACM" />
@@ -233,8 +234,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.Synchronized" />
+      <module name="ACM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.bingfabiancheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.ThreadTest" />
+      <module name="ACM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.bingfabiancheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitNotifyInterupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.WaitNotifyInterupt" />
+      <module name="ACM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.bingfabiancheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Synchronized" />
+        <item itemvalue="Application.WaitNotifyInterupt" />
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.FinalString" />
       </list>
     </recent_temporary>
@@ -349,7 +392,13 @@
       <workItem from="1585029096496" duration="393000" />
       <workItem from="1585624491036" duration="765000" />
       <workItem from="1585722719205" duration="517000" />
-      <workItem from="1585883694268" duration="1063000" />
+      <workItem from="1585883694268" duration="1771000" />
+      <workItem from="1586224964809" duration="3231000" />
+      <workItem from="1586260511005" duration="621000" />
+      <workItem from="1586262826292" duration="384000" />
+      <workItem from="1586334387488" duration="81000" />
+      <workItem from="1586336545042" duration="297000" />
+      <workItem from="1587112077209" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八">
       <created>1577063631965</created>
@@ -425,7 +474,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229769000" />
+    <option name="totallyTimeSpent" value="238797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +499,7 @@
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38069415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +507,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3264642" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36008677" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35969663" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3275488" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.329718" />
@@ -611,49 +660,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/java8/ForkJoinCalculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java8/Godness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java8/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/java8/NewMan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/java8/SubClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1007,10 +1013,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/FinalString.java">
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="214">
+          <caret line="1365" column="49" lean-forward="true" selection-start-line="1365" selection-start-column="49" selection-end-line="1365" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1023,16 +1029,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/FinalString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1382">
-          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+        <state relative-caret-position="27">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
           <folding>
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1700">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/WaitNotifyInterupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/Synchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
         </state>
       </provider>
     </entry>

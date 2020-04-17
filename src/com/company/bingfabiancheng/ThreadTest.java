@@ -1,11 +1,13 @@
 package com.company.bingfabiancheng;
 
 import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 public class ThreadTest {
 
     public static void main(String[] args) throws InterruptedException{
+        //创建线程
         MyThread thread = new MyThread();
         //thread.start();
         thread.run();
@@ -20,7 +22,7 @@ public class ThreadTest {
             //等待任务执行完毕，返回结果
             String result = futureTask.get();
             System.out.println(result);
-        } catch (Exception e){
+        } catch (ExecutionException e){
             e.printStackTrace();
         }
 
