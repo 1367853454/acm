@@ -18,7 +18,7 @@ public class Daemon {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (;;){
+                for (;;) {
 
                 }
             }
@@ -26,6 +26,7 @@ public class Daemon {
 
         thread.start();
         System.out.println("main thread is over");
+        //打印结束以后你会发现启动界面的红色方块还在说明JVM进程没有退出 因为thread还没有结束
     }
 
 }

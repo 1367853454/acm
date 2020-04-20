@@ -7,6 +7,7 @@ public class Interrupted {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
+                //如果当前线程被中断则退出循环
                 while(!Thread.currentThread().isInterrupted()){
                     System.out.println(Thread.currentThread() + " hello");
                 }

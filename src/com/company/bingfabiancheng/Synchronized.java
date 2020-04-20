@@ -63,7 +63,7 @@ public class Synchronized {
     }*/
 
     //验证notify() notifyAll()
-    public static void main(String[] args) throws InterruptedException{
+   /* public static void main(String[] args) throws InterruptedException{
 
         Thread threadA = new Thread(() -> {
 
@@ -114,5 +114,64 @@ public class Synchronized {
         threadC.join();
 
         System.out.println("main over");
+    }*/
+
+   /* public static void main(String[] args) throws InterruptedException{
+
+        Thread thread1 = new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("child thread1 over");
+        });
+
+        Thread thread2 = new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("child thread2 over");
+        });
+
+        thread1.start();
+        thread2.start();
+
+        System.out.println("wait all child thread over");
+        //join() 方法等到某几件事完成后才继续向下执行
+        thread1.join();
+        thread2.join();
+        System.out.println("all child thread over");
+    }*/
+
+    public static void main(String[] args) {
+        //线程A调用线程B的join()方法后会被阻塞 其他线程调用线程A的interrupt()方法中断线程A时 线程A会跑出InterruptedException
+        Thread thread1 = new Thread(() -> {
+            System.out.println("thread1 begin run!");
+            for (;;) {
+            }
+        });
+        //获取主线程
+        final Thread mainThread = Thread.currentThread();
+
+        Thread thread2 = new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            mainThread.interrupt();
+        });
+
+        thread1.start();
+        thread2.start();
+
+        try {
+            thread1.join();
+        } catch (InterruptedException e) {
+            System.out.println("main thread: " + e);
+        }
     }
 }
