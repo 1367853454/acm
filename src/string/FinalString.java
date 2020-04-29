@@ -1,8 +1,10 @@
 package string;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * 将类声明为final,这样它就不能被继承
@@ -75,6 +77,13 @@ public final class FinalString {
 //        String s2 = "javahello";
 //        System.out.println(s1 == s2);
 //        System.out.println("---------------------");
+
+        //final这里表示度该变量的地址是不能改变的 如果你重新list=new ArrayList<String>(); 这样就会报错！
+        final List<String> finalList = new ArrayList<>();
+        finalList.add("1");
+
+//        finalList = new ArrayList<>();
+        System.out.println(finalList);
 
         HashMap h1 = new HashMap();
         h1.put("1","first");
