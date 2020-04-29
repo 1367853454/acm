@@ -82,7 +82,7 @@ public final class FinalString {
         final List<String> finalList = new ArrayList<>();
         finalList.add("1");
 
-//        finalList = new ArrayList<>();
+//
         System.out.println(finalList);
 
         HashMap h1 = new HashMap();
