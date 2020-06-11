@@ -11,11 +11,14 @@
 //import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 //import org.springframework.stereotype.Service;
 //
+//import java.io.ByteArrayOutputStream;
 //import java.io.IOException;
 //import java.io.InputStream;
 //import java.math.BigDecimal;
+//import java.nio.charset.StandardCharsets;
 //import java.util.ArrayList;
 //import java.util.List;
+//import java.util.Map;
 //
 //@Service
 //@Slf4j
@@ -137,5 +140,78 @@
 //            }
 //        }
 //        return barCodes;
+//    }
+//
+//    byte[] bytes = excelService.writeExcel(storeProductMap,storeDtoList);
+//    HttpHeaders httpHeaders = new HttpHeaders();
+//        httpHeaders.setContentDispositionFormData("attachment",
+//                new String((ExcelService.EXPORT_STORE_PRODUCT_FILE_NAME).getBytes(StandardCharsets.UTF_8),
+//    StandardCharsets.ISO_8859_1));
+//        httpHeaders.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+//
+//        return new ResponseEntity(bytes, httpHeaders, HttpStatus.CREATED);
+//
+//    public byte[] writeExcel(Map<String, List<ExportProductDto>> map, List<StoreDto> storeDtoList) {
+//
+//        HSSFWorkbook wb = new HSSFWorkbook();
+//
+//        storeDtoList.forEach(k -> {
+//            HSSFSheet sheet = wb.createSheet(k.getStoreName());
+//
+//            HSSFCellStyle style = wb.createCellStyle();
+//            HSSFFont font = wb.createFont();
+//            font.setColor(HSSFColor.RED.index);
+//            style.setFont(font);
+//
+//            HSSFRow row = sheet.createRow(0);
+//            row.createCell(0).setCellValue("序号");
+//            row.createCell(1).setCellValue("条形码*");
+//            row.createCell(2).setCellValue("商品名称");
+//            row.createCell(3).setCellValue("库存*");
+//            row.createCell(4).setCellValue("售价*");
+//            row.createCell(5).setCellValue("所属类目*");
+//            row.createCell(6).setCellValue("标签");
+//            row.createCell(7).setCellValue("助记码");
+//            row.createCell(8).setCellValue("erp商品编码");
+//
+//            row.getCell(1).setCellStyle(style);
+//            row.getCell(3).setCellStyle(style);
+//            row.getCell(4).setCellStyle(style);
+//
+//            HSSFDataFormat format = wb.createDataFormat();
+//            style = wb.createCellStyle();
+//            style.setDataFormat(format.getFormat("0.00"));
+//            int rowIndex = 0;
+//            for (ExportProductDto dto : map.get(k.getId())) {
+//                rowIndex ++;
+//                row = sheet.createRow(rowIndex);
+//                row.createCell(0).setCellValue(rowIndex);
+//                row.createCell(1).setCellValue(dto.getBarCode());
+//                row.createCell(2).setCellValue(dto.getProductName());
+//                row.createCell(3).setCellValue(dto.getStockNum().intValue());
+//                row.createCell(4).setCellValue(dto.getSalePrice().floatValue());
+//                row.createCell(5).setCellValue(dto.getCategory());
+//                row.createCell(6).setCellValue(dto.getLabel());
+//                row.createCell(7).setCellValue(dto.getMnemonicCode());
+//                row.createCell(8).setCellValue(dto.getErpProductId());
+//
+//                row.getCell(4).setCellStyle(style);
+//            }
+//
+//            for(int i=0; i<9; i++) {
+//                sheet.autoSizeColumn(i);
+//            }
+//        });
+//
+//        try {
+//            ByteArrayOutputStream os = new ByteArrayOutputStream();
+//            wb.write(os);
+//            os.flush();
+//            os.close();
+//            return os.toByteArray();
+//        } catch (Exception e) {
+//            log.error(e.toString());
+//            return null;
+//        }
 //    }
 //}
