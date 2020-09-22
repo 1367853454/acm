@@ -4,8 +4,17 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2d3eb0-f106-4292-a675-0ec7be37c884" name="Default Changelist" comment="">
+    <list default="true" id="ea2d3eb0-f106-4292-a675-0ec7be37c884" name="Default Changelist" comment="xx">
+      <change afterPath="$PROJECT_DIR$/src/jvm/DirectMemoryOOm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/FinalizeEscapeGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/JConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/JavaMethodAreaOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/JavaVMStackSOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/MinorGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/RuntimeConstantPoolOOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ACM/com/company/LeetCode/Test739.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ACM/com/company/LeetCode/Test739.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/leetCode/Test739.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/MinorGC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="50" column="53" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="53" />
+            <state relative-caret-position="1944">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jvm/JConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,7 +68,31 @@
       <find>WaitN</find>
       <find>Class</find>
       <find>flatmap</find>
+      <find>2</find>
+      <find>X2</find>
+      <find>X8</find>
+      <find>X1</find>
+      <find>X0</find>
+      <find>X</find>
+      <find>java</find>
+      <find>() -&gt;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>X3</replace>
+      <replace>X4</replace>
+      <replace>X5</replace>
+      <replace>X6</replace>
+      <replace>X67</replace>
+      <replace>X7</replace>
+      <replace>X9</replace>
+      <replace>X11</replace>
+      <replace>X1</replace>
+      <replace>X0</replace>
+      <replace>X8</replace>
+      <replace>XZ</replace>
+      <replace>Y</replace>
+      <replace>Z</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,15 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Java/TestStringBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java/TestDateFormat.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java/TestEnum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java/TestException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java/TestGeneric.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java/TestLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/company/IO/PathDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Java8/TestLambda1.java" />
         <option value="$PROJECT_DIR$/src/com/company/LeetCode/Test1.java" />
         <option value="$PROJECT_DIR$/src/com/company/LeetCode/TestReverse.java" />
         <option value="$PROJECT_DIR$/src/com/company/LeetCode/TestPalindrome.java" />
@@ -109,6 +142,15 @@
         <option value="$PROJECT_DIR$/src/excel/ExcelService.java" />
         <option value="$PROJECT_DIR$/src/com/company/bingfabiancheng/reentrantLock/ReentrantLockTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/leetCode/Test739.java" />
+        <option value="$PROJECT_DIR$/src/jvm/JavaVMStackSOF.java" />
+        <option value="$PROJECT_DIR$/src/jvm/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/src/jvm/RuntimeConstantPoolOOM.java" />
+        <option value="$PROJECT_DIR$/src/jvm/JavaMethodAreaOOM.java" />
+        <option value="$PROJECT_DIR$/src/jvm/DirectMemoryOOm.java" />
+        <option value="$PROJECT_DIR$/src/jvm/FinalizeEscapeGC.java" />
+        <option value="$PROJECT_DIR$/src/jvm/MinorGC.java" />
+        <option value="$PROJECT_DIR$/src/jvm/OOMObject.java" />
+        <option value="$PROJECT_DIR$/src/jvm/JConsole.java" />
       </list>
     </option>
   </component>
@@ -134,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,32 +192,20 @@
               <item name="acm" type="b2602c69:ProjectViewProjectNode" />
               <item name="acm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591874496317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596771918785" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -186,15 +215,15 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea_WorkSpace\acm\src\com\company" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JAVA\IdeaProjects\acm\src\zaqizaba" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="excel" />
       <recent name="com.company.Java8" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JAVA\IdeaProjects\acm\src\zaqizaba" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_WorkSpace\acm\src\com\company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,13 +238,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test739">
-    <configuration name="CopyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.CopyList" />
+  <component name="RunManager" selected="Application.JConsole">
+    <configuration name="DirectMemoryOOm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.DirectMemoryOOm" />
       <module name="ACM" />
+      <option name="VM_PARAMETERS" value="-Xmx20M -XX:MaxDirectMemorySize=10M" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.bingfabiancheng.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.lockSupport.LockSupportTest" />
+    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.FinalizeEscapeGC" />
       <module name="ACM" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintHeapAtGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.bingfabiancheng.lockSupport.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +267,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.reentrantLock.ReentrantLockTest" />
+    <configuration name="HeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.HeapOOM" />
+      <module name="ACM" />
+      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D:\dump" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.JConsole" />
+      <module name="ACM" />
+      <option name="VM_PARAMETERS" value="-Xms100M -Xmx100M -XX:+UseSerialGC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaVMStackSOF" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.JavaVMStackSOF" />
+      <module name="ACM" />
+      <option name="VM_PARAMETERS" value="-XSS2M" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinorGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.MinorGC" />
+      <module name="ACM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+HandlePromotionFailure=false" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.RuntimeConstantPoolOOM" />
       <module name="ACM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.bingfabiancheng.reentrantLock.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,26 +349,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bingfabiancheng.lockSupport.TestPark" />
-      <module name="ACM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.bingfabiancheng.lockSupport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.JavaVMStackSOF" />
+      <item itemvalue="Application.RuntimeConstantPoolOOM" />
+      <item itemvalue="Application.Test739" />
+      <item itemvalue="Application.DirectMemoryOOm" />
+      <item itemvalue="Application.FinalizeEscapeGC" />
+      <item itemvalue="Application.MinorGC" />
+      <item itemvalue="Application.JConsole" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JConsole" />
+        <item itemvalue="Application.MinorGC" />
+        <item itemvalue="Application.FinalizeEscapeGC" />
+        <item itemvalue="Application.DirectMemoryOOm" />
         <item itemvalue="Application.Test739" />
-        <item itemvalue="Application.ReentrantLockTest" />
-        <item itemvalue="Application.TestPark" />
-        <item itemvalue="Application.LockSupportTest" />
-        <item itemvalue="Application.CopyList" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +501,15 @@
       <workItem from="1591867825471" duration="1980000" />
       <workItem from="1591871191944" duration="3277000" />
       <workItem from="1591876542535" duration="125000" />
-      <workItem from="1594168682454" duration="259000" />
+      <workItem from="1594168682454" duration="398000" />
+      <workItem from="1595732216584" duration="104000" />
+      <workItem from="1595991972869" duration="2566000" />
+      <workItem from="1596000910864" duration="2717000" />
+      <workItem from="1596024288138" duration="4936000" />
+      <workItem from="1596069009260" duration="41000" />
+      <workItem from="1596331977290" duration="7173000" />
+      <workItem from="1596770944935" duration="1276000" />
+      <workItem from="1596779139319" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八">
       <created>1577063631965</created>
@@ -524,11 +616,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591847802929</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="xx">
+      <created>1594168976903</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594168976903</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274119000" />
+    <option name="totallyTimeSpent" value="293716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,19 +640,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22761194" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2489339" />
       <window_info id="Learn" order="6" weight="0.32910448" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30260304" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3253796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4967462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
@@ -662,7 +762,8 @@
     <MESSAGE value="Thread" />
     <MESSAGE value="finalList" />
     <MESSAGE value="ReentrantLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReentrantLock" />
+    <MESSAGE value="xx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,137 +817,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="1533" column="40" selection-start-line="1533" selection-start-column="40" selection-end-line="1533" selection-end-column="40" />
-          <folding>
-            <element signature="e#65240#65241#0" expanded="true" />
-            <element signature="e#65287#65288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="2256" column="48" selection-start-line="2256" selection-start-column="4" selection-end-line="2256" selection-end-column="48" />
-          <folding>
-            <element signature="e#5767#5768#0" expanded="true" />
-            <element signature="e#5800#5801#0" expanded="true" />
-            <element signature="e#6596#6597#0" expanded="true" />
-            <element signature="e#6640#6641#0" expanded="true" />
-            <element signature="e#76967#76968#0" expanded="true" />
-            <element signature="e#77018#77019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/list/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zaqizaba/OOMDemoMemLeak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zaqizaba/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zaqizaba/Zaqizaba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="1365" column="49" lean-forward="true" selection-start-line="1365" selection-start-column="49" selection-end-line="1365" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1700">
-          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/WaitNotifyInterupt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/Join_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/SleepTes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="254" column="7" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="7" />
-          <folding>
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/Synchronized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="175" column="5" lean-forward="true" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/Join.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/SleepTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/YieldTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -995,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/FinalString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/bingfabiancheng/lockSupport/LockSupportTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -1102,8 +1065,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/leetCode/Test739.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
+        <state relative-caret-position="945">
           <caret line="50" column="53" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/io/PathDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/annTest/Description.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/annTest/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/annTest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/annTest/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/list/Dto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/list/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/java8/NewMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/HeapOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/JavaVMStackSOF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2349">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/RuntimeConstantPoolOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/JavaMethodAreaOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/DirectMemoryOOm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/FinalString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/FinalizeEscapeGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/MinorGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/JConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
