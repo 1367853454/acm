@@ -3,6 +3,7 @@ package com.company.leetCode;
 /**
  * @author ZHANGWJ
  * @date 2020/9/23 9:49
+ * 有序数组去除重复数字 返回个数
  */
 public class Test26 {
 

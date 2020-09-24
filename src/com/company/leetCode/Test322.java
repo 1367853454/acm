@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * @author ZHANGWJ
  * @date 2020/9/22 14:57
+ * n种硬币凑金额最少需要的硬币数量
  */
 public class Test322 {
 

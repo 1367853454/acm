@@ -3,6 +3,7 @@ package com.company.leetCode;
 /**
  * @author ZHANGWJ
  * @date 2020/9/23 10:08
+ * 有序链表去除重复数字 返回链表
  *
  */
 public class Test83 {
